@@ -1,0 +1,573 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    font-family: sans-serif;
+}
+.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown-content a:hover {background-color: #f1f1f1}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
+#nav-bar
+{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+.navbar
+{
+    background-image: linear-gradient(to right,bisque,deepskyblue);
+}
+.navbar-brand img
+{
+    height: 50px;
+    padding-left: 20px;
+}
+.navbar-nav li
+{
+    padding: 0 20px;
+}
+.navbar-nav li a
+{
+    color: #fff !important;
+    font-weight: 700;
+    float: right;
+    text-align: left;
+}
+.fa-bars
+{
+    color: #fff;
+    font-size: 30px !important;
+}
+.navbar-toggler
+{
+    outline: none !important;
+}
+.Oxygen
+{
+    font-size: 28px;
+    font-weight: normal;
+    margin-top: 20px;
+}
+/*-----*/
+#banner
+{
+    background-image: linear-gradient(to left,bisque,deepskyblue);
+    color: #ffffff;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+d:link, d:visited {
+    background-color: #f44336;
+    color: white;
+    padding: 24px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+d:hover, d:active {
+    background-color: red;
+}
+.promo-title
+{
+    font-size: 60px;
+    font-weight: 600;
+    margin-top: 50px;
+}
+.text-title
+{
+    border-radius: 0px;
+    margin: 0px;
+}
+.bottom-img
+{
+    width: 100%;
+    padding-top: 5%;
+}
+#services
+{
+    padding: 50px 0;
+}
+.service-img
+{
+    height: 100px;
+    width: 100px;
+    margin-top: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.services
+{
+    padding: 60px 0;
+}
+.services h4
+{
+    padding: 10px;
+    margin-top: 45px;
+    text-transform: uppercase;
+}
+.title::before
+{
+    content: '';
+    background: ;
+    height: 5px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    transform: translateY(63px);
+}
+#services .btn-primary
+{
+    box-shadow: none;
+    padding: 8px 25px;
+    border: none;
+    border-radius: 15px;
+    background: deepskyblue;
+}
+div.gallery {
+    margin: 5px;
+    border: 6px solid #ccc;
+    float: left;
+    width: 318px;
+    border-bottom-left-radius: 0px;
+}
+
+div.gallery img {
+    width: 100%;
+    height: 200px;
+}
+div.desc {
+    font-size: 20px;
+    padding: 15px;
+    text-align: center;
+}
+.seed{
+    padding: 100px;
+    float: left;
+}
+.product{
+    text-align: center;
+    font-weight: normal;
+    padding-left: 50px;
+    text-decoration-line: underline ;
+    text-decoration: skyblue;
+}
+#about-us
+{
+    background-image: linear-gradient(to right,skyblue,bisque);
+    margin: 10px 0px 0px 0px;
+    padding-bottom: 40px;
+    padding-top: 80px;
+}
+.about-title
+{
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 8%;
+}
+.title{
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 4%;
+}
+.img-fluid
+{
+    height: 500px;
+    width: 550px;
+    border-radius: 150%;
+    margin: 0 100px;
+}
+#about-us ul li
+{
+    margin: 15px ;
+}
+#about-us ul
+{
+    margin-left: 20px ;
+}
+#our-product
+{
+    margin: 50px 0;
+}
+#Opportunity
+{
+    margin: 50px;
+}
+.testimonials
+{
+    border-left: 4px solid lightskyblue;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.testimonials img
+{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    margin: 0 10px;
+}
+.user-details
+{
+    display: inline-block;
+    font-size: 12px;
+}
+#social-media
+{
+    background: #f8f9fa;
+    padding: 100PX 0;
+}
+#social-media P
+{
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 36px;
+}
+.social-icons img
+{
+    width: 60px;
+    transition: 0.5s;
+}
+.social-icons a:hover img
+{
+    transform: translateY(-10px);
+}
+
+#footer
+{
+    background: skyblue;
+    color: #fff;
+}
+.footer-img
+{
+    width: 100%;
+}
+.footer-box
+{
+    padding: 20px;
+}
+.footer-box img
+{
+    width: 120px;
+    margin-bottom: 20px;
+}
+.footer-box .fa
+{
+    margin-right: 8px;
+    font-size: 25px;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    padding-top: 7px;
+    border-radius: 2px;
+    background-color: orangered;
+}
+.footer-box .form-control
+{
+    box-shadow: none; !important;
+    border: none;
+    border-radius: 25px;
+    margin-top: 25px;
+    max-width: 250px;
+}
+.footer-box .btn-primary
+{
+    box-shadow: none; !important;
+    border: none;
+    border-radius: 25px;
+    margin-top: 30px;
+    background-color: orangered;
+}
+.d
+{
+    color:black;
+    box-shadow: Green;
+    padding: 8px 25px;
+    border: none;
+    border-radius: 15px;
+    background: white;
+}
+.hr
+{
+    background-color: red;
+}
+.copyright
+{
+    margin-bottom: 0;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+}
+
+.price {
+    color: grey;
+    font-size: 22px;
+}
+
+.card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: green;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+}
+
+.card button:hover {
+    opacity: 0.7;
+}
+
+/* checkout */
+
+
+
+.row {
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE10 */
+    flex-wrap: wrap;
+    margin: 0 -16px;
+}
+
+.col-25 {
+    -ms-flex: 25%; /* IE10 */
+    flex: 25%;
+}
+
+.col-50 {
+    -ms-flex: 50%; /* IE10 */
+    flex: 50%;
+}
+
+.col-75 {
+    -ms-flex: 75%; /* IE10 */
+    flex: 75%;
+}
+
+.col-25,
+.col-50,
+.col-75 {
+    padding: 0 16px;
+}
+
+.Checkout {
+    background-color: #f2f2f2;
+    padding: 5px 20px 15px 20px;
+    border: 1px solid lightgrey;
+    border-radius: 3px;
+}
+
+input[type=text] {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+label {
+    margin-bottom: 10px;
+    display: block;
+}
+
+.icon-Checkout {
+    margin-bottom: 20px;
+    padding: 7px 0;
+    font-size: 24px;
+}
+
+.btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px;
+    margin: 10px 0;
+    border: none;
+    width: 100%;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 17px;
+}
+
+.btn:hover {
+    background-color: #45a049;
+}
+
+span.price {
+    float: right;
+    color: grey;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other (and change the direction - make the "cart" column go on top) */
+@media (max-width: 800px) {
+    .row {
+        flex-direction: column-reverse;
+    }
+    .col-25 {
+        margin-bottom: 20px;
+    }
+}
+
+/* Login */
+
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+}
+
+/* Center the image and position the close button */
+.imgmontainer {
+    text-align: center;
+    margin: 14px 0 05px 0;
+    position: relative;
+}
+
+img.avatar {
+    width: 20%;
+    border-radius: 30%;
+}
+
+.montainer {
+    padding: 12px;
+}
+
+span.psw {
+    float: right;
+    padding-top: 16px;
+}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    padding-top: 60px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button (x) */
+.close {
+    position: absolute;
+    right: 25px;
+    top: 0;
+    color: #000;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: red;
+    cursor: pointer;
+}
+
+/* Add Zoom Animation */
+.animate {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+    from {-webkit-transform: scale(0)}
+    to {-webkit-transform: scale(1)}
+}
+
+@keyframes animatezoom {
+    from {transform: scale(0)}
+    to {transform: scale(1)}
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+    span.psw {
+        display: block;
+        float: none;
+    }
+    .cancelbtn {
+        width: 100%;
+    }
+}
